@@ -88,3 +88,7 @@ tasks.register('type3SignatureTool', JavaExec) {
     mainClass = 'stirling.software.SPDF.service.pdfjson.type3.tool.Type3SignatureTool'
     standardInput = System.in
 }
+
+dependencyLocking {
+    lockAllConfigurations()
+}

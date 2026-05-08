@@ -616,3 +616,7 @@ tasks.register('buildRestartHelper', Jar) {
         println "restart-helper.jar created at: ${destinationDirectory.get()}/restart-helper.jar"
     }
 }
+
+dependencyLocking {
+    lockAllConfigurations()
+}
