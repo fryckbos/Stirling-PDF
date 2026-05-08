@@ -52,3 +52,6 @@ dependencies {
     api 'jakarta.mail:jakarta.mail-api:2.1.5'
     runtimeOnly 'org.eclipse.angus:angus-mail:2.0.5'
 }
+dependencyLocking {
+    lockAllConfigurations()
+}
